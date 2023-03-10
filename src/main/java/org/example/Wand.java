@@ -21,14 +21,6 @@ public class Wand {
 
 
 
-    public static void main(String[] args) {
-        Random random = new Random();
-        Core[] core = Core.values();
-        Core core_random = core[random.nextInt(core.length)];
-        System.out.println("Core aléatoire: " + core_random);
-    }
-
-
 }
 
 /* liste des coeur de baguette dans Harry Potter

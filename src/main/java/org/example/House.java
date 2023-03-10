@@ -1,4 +1,9 @@
 package org.example;
 
-public class House {
+public enum House {
+    Serpentard,
+    Gryffondor,
+    Poufsouffle,
+    Serdaigle;
+
 }
