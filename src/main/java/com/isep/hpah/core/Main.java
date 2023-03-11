@@ -1,31 +1,22 @@
 package com.isep.hpah.core;
 import java.util.Scanner;
 
+import static com.isep.hpah.core.Core.randomCore;
+import static com.isep.hpah.core.House.randomHouse;
+import static com.isep.hpah.core.Pet.PetChoose;
+import static com.isep.hpah.core.Wand.randomSize;
+import static com.isep.hpah.core.Wand.randomWood;
+
 public class Main {
 
-        enum Objets {
-            OBJET1,
-            OBJET2,
-            OBJET3
-        }
-
         public static void main (String[]args){
+        PetChoose();
+        randomWood();
+        randomCore();
+        randomSize();
+        randomHouse();
 
-            Scanner scanner = new Scanner(System.in);
-
-            System.out.println("Veuillez sélectionner un objet :");
-
-            Objets objetSelectionne = null;
-            while (objetSelectionne == null) {
-                String choix = scanner.nextLine();
-                try {
-                    objetSelectionne = Objets.valueOf(choix.toUpperCase());
-                } catch (IllegalArgumentException e) {
-                    System.out.println("Veuillez saisir une option valide.");
-                }
-            }
-
-            System.out.println("Vous avez sélectionné l'objet " + objetSelectionne);
 
         }
-    }
+
+}
