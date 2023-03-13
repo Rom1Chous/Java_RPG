@@ -1,4 +1,4 @@
-package com.isep.hpah.core;
+package Element;
 
 import lombok.Getter;
 import lombok.Setter;

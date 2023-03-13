@@ -1,4 +1,4 @@
-package com.isep.hpah.core;
+package Element;
 
 public class AbstractSpell {
 }
