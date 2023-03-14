@@ -37,7 +37,6 @@ public class Wand {
     public static int randomSize() {
             Random random = new Random();
             int size_random = random.nextInt(21) + 10;
-            System.out.println("la baguette mesure "+size_random+"cm");
             return size_random;
         }
     }
