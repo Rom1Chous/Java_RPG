@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adf8fa35-ef5e-4836-8fee-42144b841a3d" name="Changes" comment="Chnagement d'orga">
+    <list default="true" id="adf8fa35-ef5e-4836-8fee-42144b841a3d" name="Changes" comment="Continue la partie Game et changement sur Pet et Wand">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Element/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Element/Character.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/AbstractEnemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/AbstractSpell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Boss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Core.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/ForbiddenSpell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Pet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Pet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Potion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/SortingHat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Spell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Wand$Wood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Wand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/isep/hpah/core/Wizard.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +85,9 @@
       <workItem from="1678476555575" duration="1872000" />
       <workItem from="1678543877524" duration="4633000" />
       <workItem from="1678718205196" duration="3452000" />
-      <workItem from="1678788118104" duration="2379000" />
+      <workItem from="1678788118104" duration="2761000" />
+      <workItem from="1678797971364" duration="809000" />
+      <workItem from="1678808514057" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="cha">
       <created>1678460353479</created>
@@ -113,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678721653562</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Continue la partie Game et changement sur Pet et Wand">
+      <created>1678790874084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678790874084</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +148,7 @@
     <MESSAGE value="cha" />
     <MESSAGE value="Début de création des fonctions de personalisation du personnage" />
     <MESSAGE value="Chnagement d'orga" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chnagement d'orga" />
+    <MESSAGE value="Continue la partie Game et changement sur Pet et Wand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue la partie Game et changement sur Pet et Wand" />
   </component>
 </project>

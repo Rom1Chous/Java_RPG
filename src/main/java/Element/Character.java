@@ -7,13 +7,9 @@ public abstract class Character {
 
     @Getter@Setter private int health;
     @Getter@Setter private final int maxHealth;
-
     @Getter@Setter private final String name;
-
     @Getter@Setter private int accuracy;
-
     @Getter@Setter private int damage;
-
     @Getter@Setter private int defense;
 
 

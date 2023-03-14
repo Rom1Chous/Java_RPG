@@ -32,7 +32,7 @@ public class Game {
         System.out.println("Hagrid vous demande alors comment vous allez l'appeler et lequel vous allez chosir! ");
         String nameAnimal = scanner.nextLine();
         System.out.println("Dites bonjour à " + nameAnimal + " votre " + Pet.petChoose() + " !");
-        System.out.println(" /n Hagrid vous amène alors à la gare de Londres en vous donnant votre billet pour Poudlard voie 9_3/4 __");
+        System.out.println(" Hagrid vous amène alors à la gare de Londres en vous donnant votre billet pour Poudlard voie 9_3/4 __");
     }
 
 }
